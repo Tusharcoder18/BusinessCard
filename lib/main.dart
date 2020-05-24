@@ -91,7 +91,7 @@ class BusinessCard extends StatelessWidget {
                     onTap: () {
                       print('Tapped!');
                       Clipboard.setData(
-                          new ClipboardData(text: '+91 6304146271'));
+                          new ClipboardData(text: '+91 630414XXXX'));
                       SnackBar snackbar = SnackBar(
                         content: Text('Copied to Clipboard!'),
                         duration: Duration(seconds: 3),
